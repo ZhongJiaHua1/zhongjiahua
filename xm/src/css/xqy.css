@@ -1,0 +1,306 @@
+@charset "UTF-8";
+#main {
+  width: 1200px;
+  margin: 0 auto;
+  clear: both; }
+  #main .main_box {
+    height: 100px;
+    font-size: 14px;
+    line-height: 40px; }
+    #main .main_box font {
+      color: #959595; }
+    #main .main_box a {
+      color: #959595; }
+  #main .good {
+    float: right;
+    width: 570px; }
+    #main .good .good_name {
+      float: left;
+      width: 570px;
+      height: auto !important;
+      height: 68px;
+      min-height: 68px;
+      border-bottom: 1px solid #e0e0e0; }
+      #main .good .good_name h1 {
+        font: 800 18px/34px "Microsoft YaHei";
+        color: #4c4c4c; }
+      #main .good .good_name p {
+        font-size: 14px;
+        color: #ff6900;
+        line-height: 26px; }
+    #main .good .good_sales {
+      float: left;
+      width: 570px;
+      border-bottom: 1px solid #e0e0e0;
+      padding: 18px 0; }
+      #main .good .good_sales .sales_price {
+        float: left;
+        width: 570px;
+        margin: 0 0 18px; }
+        #main .good .good_sales .sales_price .drop {
+          color: #fff;
+          font-size: 14px;
+          background-color: #ff6900;
+          line-height: 26px;
+          padding: 0 8px;
+          margin-right: 10px;
+          float: left; }
+        #main .good .good_sales .sales_price .price {
+          font: 800 26px/26px "Microsoft YaHei";
+          color: #ff6900;
+          float: left; }
+          #main .good .good_sales .sales_price .price span {
+            font: 800 16px/26px "Microsoft YaHei";
+            color: #4c4c4c;
+            margin-left: 10px;
+            text-decoration: line-through; }
+        #main .good .good_sales .sales_price .notice {
+          margin: 3px 0 0 20px;
+          float: left; }
+          #main .good .good_sales .sales_price .notice .on {
+            background: url(../img/xqy_ico.gif) 10px -63px no-repeat;
+            border: 1px solid #e7e7e7;
+            line-height: 18px;
+            color: #4c4c4c;
+            padding: 0 10px 0 25px;
+            display: block; }
+      #main .good .good_sales .sales_app {
+        float: left; }
+        #main .good .good_sales .sales_app dl {
+          float: left;
+          width: 125px;
+          height: 26px;
+          position: relative;
+          z-index: 10; }
+          #main .good .good_sales .sales_app dl dt {
+            font-family: "瀹嬩綋", "Arial Narrow", HELVETICA;
+            font-size: 12px;
+            color: #333;
+            padding: 0;
+            margin: 0; }
+            #main .good .good_sales .sales_app dl dt a {
+              float: left;
+              width: 97px;
+              height: 26px;
+              background: url(../img/xqy_app.png) 0 0 no-repeat #ff6900;
+              font-size: 14px;
+              color: #fff;
+              padding-left: 28px;
+              line-height: 26px;
+              text-decoration: none; }
+          #main .good .good_sales .sales_app dl dd {
+            position: absolute;
+            z-index: 20;
+            left: 0;
+            top: 26px;
+            width: 220px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            text-align: center;
+            padding-bottom: 10px;
+            display: none; }
+            #main .good .good_sales .sales_app dl dd p {
+              background-color: #f4f4f4;
+              line-height: 30px;
+              font-size: 12px; }
+            #main .good .good_sales .sales_app dl dd em {
+              font-size: 14px;
+              font-weight: 700;
+              font-style: normal; }
+    #main .good .good_buy {
+      float: left;
+      width: 570px;
+      margin-bottom: 20px;
+      margin-top: 15px; }
+      #main .good .good_buy .fl {
+        float: left !important;
+        display: inline; }
+        #main .good .good_buy .fl dl {
+          float: left;
+          width: 570px;
+          height: 52px; }
+          #main .good .good_buy .fl dl dt {
+            width: 100px;
+            float: left;
+            margin-right: 15px; }
+            #main .good .good_buy .fl dl dt input {
+              border: 1px solid #cdcdcd;
+              width: 54px;
+              height: 48px;
+              font: 400 24px/48px "Microsoft YaHei";
+              color: #626262;
+              text-align: center;
+              float: left;
+              margin-right: 1px; }
+            #main .good .good_buy .fl dl dt .up {
+              margin-top: 10px;
+              margin-right: 1px;
+              float: left;
+              width: 19px;
+              height: 25px;
+              display: block;
+              border: 1px solid #ccc;
+              text-align: center; }
+            #main .good .good_buy .fl dl dt .dowm {
+              text-align: center;
+              margin-top: 10px;
+              float: left;
+              width: 19px;
+              height: 25px;
+              display: block;
+              border: 1px solid #ccc; }
+          #main .good .good_buy .fl dl dd {
+            float: left; }
+            #main .good .good_buy .fl dl dd .buy_btn {
+              float: left;
+              margin-right: 15px; }
+              #main .good .good_buy .fl dl dd .buy_btn a {
+                width: 182px;
+                height: 52px;
+                display: block;
+                background: url(../img/buy_btn.gif) no-repeat; }
+            #main .good .good_buy .fl dl dd .buy_pj {
+              color: #4c4c4c;
+              line-height: 52px;
+              float: left; }
+              #main .good .good_buy .fl dl dd .buy_pj #score {
+                font: 400 18px/52px "Microsoft YaHei";
+                color: #ff6900;
+                padding: 0 8px; }
+              #main .good .good_buy .fl dl dd .buy_pj a {
+                color: #4c4c4c; }
+                #main .good .good_buy .fl dl dd .buy_pj a span {
+                  color: #ff6900;
+                  padding: 0 5px; }
+    #main .good .good_today {
+      float: left;
+      width: 570px;
+      padding-bottom: 25px;
+      margin-top: 20px; }
+      #main .good .good_today dl {
+        float: left;
+        margin-right: 10px;
+        position: relative;
+        z-index: 0; }
+        #main .good .good_today dl dt {
+          background-color: #91c103;
+          border: 1px solid #91c103;
+          float: left;
+          color: #fff;
+          line-height: 23px;
+          padding-right: 3px;
+          cursor: pointer;
+          font-size: 12px; }
+    #main .good .good_prompt {
+      float: left;
+      width: 570px;
+      padding-bottom: 20px;
+      line-height: 18px; }
+      #main .good .good_prompt dd {
+        color: #79a000;
+        font-size: 12px; }
+
+#xd_nav {
+  float: right;
+  width: 916px;
+  z-index: 70;
+  background-color: #fafafa;
+  border-bottom: 1px solid #efefe7;
+  border-left: 1px solid #efefe7;
+  border-right: 1px solid #efefe7;
+  border-top: 2px solid #8ab700;
+  height: 41px;
+  margin-right: 58px; }
+  #xd_nav dt {
+    float: left;
+    width: 672px; }
+    #xd_nav dt em {
+      float: left;
+      position: relative;
+      z-index: 70;
+      height: 34px;
+      width: 112px;
+      font-style: normal; }
+      #xd_nav dt em #spxq {
+        background: url(../img/xqy_num.png) right -194px no-repeat;
+        color: #fff;
+        font-size: 14px;
+        text-decoration: none;
+        padding-top: 5px;
+        height: 39px;
+        line-height: 34px;
+        padding: 10px 4px 0 0;
+        display: block;
+        position: absolute;
+        top: -6px;
+        left: -1px;
+        width: 108px;
+        text-align: center;
+        height: 34px;
+        overflow: hidden;
+        text-overflow: clip;
+        font-weight: 400; }
+
+#good_all {
+  float: right;
+  width: 916px;
+  margin: 20px 58px; }
+  #good_all dd {
+    float: left;
+    width: 980px; }
+    #good_all dd ul {
+      float: left;
+      width: 500px;
+      padding: 5px 0 0 15px; }
+      #good_all dd ul li {
+        line-height: 18px;
+        color: #4c4c4c;
+        padding-top: 15px;
+        font-size: 12px; }
+    #good_all dd ol {
+      float: right;
+      width: 280px;
+      padding: 0 100px 0 0; }
+      #good_all dd ol img {
+        width: 280px;
+        height: 280px;
+        display: inline; }
+    #good_all dd img {
+      width: 916px;
+      margin: 20px 0 100px; }
+
+.zz {
+  position: fixed;
+  top: 0;
+  right: 0;
+  float: right; }
+
+#pop_cart {
+  width: 300px;
+  padding: 10px;
+  bottom: 117px;
+  right: 47px;
+  position: absolute; }
+  #pop_cart #pop_buy {
+    border: 1px solid #649a2b;
+    background-color: #fff;
+    width: 275px;
+    float: left;
+    padding: 0 15px 0 10px; }
+    #pop_cart #pop_buy .b0 {
+      padding: 12px 0;
+      width: 275px;
+      float: left; }
+      #pop_cart #pop_buy .b0 .name {
+        width: 125px;
+        float: left;
+        font: 400 12px/18px "Microsoft YaHei";
+        color: #3e4141;
+        padding-top: 3px; }
+      #pop_cart #pop_buy .b0 .price {
+        width: 75px;
+        float: right;
+        font: 800 14px/58px "Microsoft YaHei";
+        color: #ff6900; }
+
+/*# sourceMappingURL=xqy.css.map */

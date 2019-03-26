@@ -1,0 +1,381 @@
+#listbox{
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+    font-size: 12px;
+}
+.ls{
+    width: 1200px;
+    color: #959595;
+    line-height: 40px;
+}
+#listbox .ls a{
+    color: #959595;
+    font-size: 12px;
+}
+#listbox_fl{
+    width: 210px;
+}
+#listbox_fl .fl_menu{
+    float: left;
+    border-top: 2px solid #8ab700;
+    border-left: 1px solid #efefe8;
+    border-right: 1px solid #efefe8;
+    margin-bottom: 15px;
+}
+#listbox_fl .fl_menu ul{
+    background-color: #fafafa;
+    color: #6b6b56;
+    font: 400 16px/35px "微软雅黑";
+    padding-left: 22px;
+}
+#listbox_fl .fl_menu dl{
+    width: 208px;
+    float: left;
+    border-bottom: 1px solid #efefe8;
+}
+#listbox_fl .fl_menu dl .on_b{
+        width: 208px;
+    float: left;
+    height: 35px;
+    background: url(../img/list_menu.png) 22px -32px no-repeat ; 
+    cursor: pointer;
+}
+#listbox_fl .fl_menu dl .on_b a{
+    font: 800 14px/35px "宋体";
+    color: #8ab700;
+    margin-left: 42px;
+}
+#listbox_fl .fl_menu dl  dd{
+    float: left;
+    padding: 5px 0 5px 34px;
+    width: 174px;
+}
+#listbox_fl .fl_menu dl  dd em{
+    width: 174px;
+    float: left;
+    font-style: normal;
+    font-size: 12px;
+}
+#listbox_fl .fl_menu dl  dd em .on_s{
+    background-color: #8ab700;
+    color: #fff;
+    padding: 0 8px;
+    line-height: 26px;
+}
+#listbox_fl .fl_menu dl  dd em a{
+    padding: 0 8px;
+    color: #4c4c4c;
+    line-height: 26px;
+}
+#listbox_fl .fl_menu dl  dd em .on_a:hover{
+    color: #8ab700;
+}
+#listbox_fl .fl_menu dl .num2{
+    width: 208px;
+    float: left;
+    height: 35px;
+    background: url(../img/list_menu.png) 22px -32px no-repeat;
+    cursor: pointer;
+}
+#listbox_fl .fl_menu dl .num2 a{
+    font: 800 14px/35px "宋体";
+    color: #78a000;
+    margin-left: 42px;
+}
+#listbox_fl .fl_menu dl .num3{
+    width: 208px;
+    float: left;
+    height: 35px;
+    background: url(../img/list_menu.png) 22px -32px no-repeat;
+    cursor: pointer;
+}
+#listbox_fl .fl_menu dl .num3 a{
+    font: 800 14px/35px "宋体";
+    color: #78a000;
+    margin-left: 42px;
+   
+}
+#listbox_fl .fl_menu dl dt a:hover{
+    color:black;
+}
+
+/* main_fr */
+#listbox_fr{
+    width: 970px;
+    float: right;
+    position: relative;
+}
+.fr_name{
+    width: 970px;
+    float: left;
+    margin-bottom: 10px;
+}
+.fr_name h1{
+    font: 400 20px/35px "微软雅黑";
+    color: #333;
+}
+.fr_nav{
+    width: 970px;
+    float: left;
+    background-color: #f8f8f6;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    height: 32px;
+}
+.fr_nav ul{
+    width: 460px;
+    float: left;
+    padding-left: 10px;
+}
+.fr_nav ul li{
+    padding: 0 25px;
+    float: left;
+    position: relative;
+    z-index: 0;
+}
+.fr_nav ul li a:hover{
+    color:#ff6900;
+    text-decoration: underline;
+}
+.fr_nav ul a{
+    line-height: 33px;
+    color: #626262;
+    font-size: 12px;
+}
+.fr_nav dl{
+    width: 500px;
+    float: right;
+}
+.fr_nav dl dt{
+    float: right;
+    padding: 0 25px;
+    color: #626262;
+    line-height: 33px;
+}
+.fr_nav dl dt span{
+    color:#ff6900;
+}
+.fr_nav dl dd{
+    float: right;
+    padding-top: 8px;
+}
+.fr_nav dl dd a{
+    float: left;
+    color: #626262;
+    border: 1px solid #d2d2d0;
+    padding: 0 6px;
+    line-height: 14px;
+    display: block;
+}
+.fr_nav dl dd p{
+    float: left;
+    line-height: 16px;
+    color: #626262;
+    padding: 0 15px;
+}
+.product{
+    width: 968px;
+    float: left;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    margin-bottom: 30px;
+}
+.product dl{
+    width: 242px;
+    float: left;
+    height: 395px;
+    position: relative;
+    z-index: 0;
+}
+.product dl dd{
+    width: 241px;
+    float: left;
+    height: 394px;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+    background-color: #fff;
+    overflow: hidden;
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    left: 0;
+}
+.product dl dd .list{
+    border: 4px solid #fff;
+    width: 211px;
+    height: 386px;
+    padding: 0 11px;
+    position: relative;
+
+}
+.product dl dd .list:hover{
+    border: 4px solid #ccc;
+}
+.product dl dd .list .pic{
+    margin-top: 26px;
+    width: 211px;
+    text-align: center;
+}
+.product dl dd .list .name{
+    height: 48px;
+    width: 211px;
+    text-overflow: clip;
+    display: block;
+    margin-top: 20px;
+}
+.product dl dd .list .name font{
+    height: 46px;
+    text-overflow: clip;
+    display: block;
+    font-size: 14px;
+    cursor: pointer;
+    color: #1b1b15;
+    font: 400 14px/24px "Microsoft YaHei";
+}
+.product dl dd .list .name span{
+    font: 400 12px/24px "Microsoft YaHei";
+    color: #929292;
+    text-overflow: clip;
+    display: block;
+    font-size: 14px;
+    height: 24px;
+    cursor: pointer;
+}
+.product dl dd .list .price{
+    font: 400 20px/25px "Microsoft YaHei";
+    color: #ff6900;
+    margin-top: 22px;
+}
+.product dl dd .list .price span{
+    font: 400 14px/25px "Microsoft YaHei";
+    color: #686c69;
+    text-decoration: line-through;
+    margin-left: 10px
+}
+.product dl dd .list .cold{
+    float: left;
+    border: 1px solid #ff6900;
+    font: 400 12px/17px "Microsoft YaHei";
+    color: #ff6900;
+    padding: 0 5px;
+    margin-top: 8px;
+}
+#more {
+    width: 300px;
+    height: 30px;
+    background: lemonchiffon;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    /* display: none; */
+    position: absolute;
+    bottom: 0px;
+    right: 50%;
+
+}
+.page {
+    padding: 20px;
+}
+.page span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: #d8d8d8;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.page span.active {
+    background: lightcoral;
+    color: #fff;
+}
+
+#gif .box {
+    width: 100px;
+    height: 100px;
+    /*border:1px solid #ccc;*/
+    position: absolute;
+}
+
+/* #gif .box p {
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    animation: donhua 2s infinite;
+} */
+
+/* #gif .box p:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+#gif .box p:nth-child(2) {
+    top: 0;
+    right: 0;
+}
+
+#gif .box p:nth-child(3) {
+    bottom: 0;
+    right: 0;
+}
+
+#gif .box p:nth-child(4) {
+    bottom: 0;
+    left: 0;
+}
+
+#gif .box:nth-child(2) {
+    transform: rotate(45deg);
+}
+
+@keyframes donhua {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#gif .box:nth-child(1) p:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+#gif .box:nth-child(2) p:nth-child(1) {
+    animation-delay: 0.4s;
+}
+
+#gif .box:nth-child(1) p:nth-child(2) {
+    animation-delay: 0.6s;
+}
+
+#gif .box:nth-child(2) p:nth-child(2) {
+    animation-delay: 0.8s;
+}
+
+#gif .box:nth-child(1) p:nth-child(3) {
+    animation-delay: 1s;
+}
+
+#gif .box:nth-child(2) p:nth-child(3) {
+    animation-delay: 1.2s;
+}
+
+#gif .box:nth-child(1) p:nth-child(4) {
+    animation-delay: 1.4s;
+}
+
+#gif .box:nth-child(2) p:nth-child(4) {
+    animation-delay: 1.6s;
+} */

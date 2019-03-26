@@ -1,0 +1,252 @@
+    #cart_top {
+        height: 120px;
+        width: 990px;
+        margin: 0 auto;
+        clear: both;
+        display: none;
+
+        #fl {
+            margin-top: 25px;
+            display: inline-block;
+        }
+
+        #fr {
+            float: right;
+            margin-top: 25px;
+            display: inline-block;
+        }
+
+        #tit {
+            float: left;
+            height: 35px;
+            width: 990px;
+            margin-top: 60px;
+
+            .tit_word {
+                font: 400 16px/35px "Microsoft YaHei";
+                float: left;
+            }
+        }
+    }
+
+    #min_all {
+        .cart_none {
+            float: left;
+            width: 990px;
+            text-align: center;
+            padding: 100px 0;
+
+            p a {
+                color: #abd13e;
+                text-decoration: underline;
+                font: 400 14px/60px "Microsoft YaHei";
+
+            }
+        }
+    }
+
+    #shopping {
+        width: 990px;
+        margin: 0 auto;
+        display: block;
+        clear: both;
+
+        .alltit {
+            width: 100%;
+            margin: 50px 0 0;
+            background-color: #ff9000;
+            margin-bottom: -3px;
+            margin-top: 10px;
+
+            p {
+                float: left;
+                font-size: 14px;
+                color: #fff;
+                font-weight: 700;
+                line-height: 36px;
+                padding: 0 10px;
+                border-radius: 100px;
+            }
+
+            em {
+                line-height: 36px;
+                margin-left: 10px;
+                color: #fff;
+                font-style: normal;
+            }
+        }
+
+        #main_header {
+            width: 990px;
+            margin: 3px 0 0;
+
+            .main_h1 {
+                height: 40px;
+                background-color: #fafbf8;
+                border-top: 1px solid #edecec;
+                border-bottom: 1px solid #edecec;
+                font: 400 12px/40px "宋体";
+                color: #333;
+
+                input {
+                    float: left;
+                    margin: 13px 27px 0 35px;
+                }
+
+                span {
+                    display: inline-block;
+                    font: 400 12px/40px "宋体";
+                }
+            }
+
+            #sp {
+                font-family: "宋体", "Arial Narrow", HELVETICA;
+                font-size: 12px;
+                color: #333;
+
+                li {
+                    border-bottom: 1px dotted #e1e1e1;
+                    padding: 20px 0;
+                    float: left;
+                    width: 990px;
+                }
+
+                .check {
+                    width: 40px;
+                    float: left;
+                    margin: 22px 0 0 35px;
+                }
+
+                .pic {
+                    float: left;
+                    width: 75px;
+
+                    img {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+
+                .name {
+                    margin: 0 40px 0 0;
+                    width: 350px;
+                    float: left;
+                }
+
+                .price {
+                    font: 400 18px/22px "Microsoft YaHei";
+                    float: left;
+                    width: 115px;
+                }
+
+                .num {
+                    float: left;
+                    margin: 0 0 0 5px;
+                    width: 90px;
+
+                    p {
+                        width: 15px;
+                        height: 28px;
+                        border: 1px solid #ccc;
+                        float: left;
+                        display: inline;
+                        text-align: center;
+                        line-height: 28px;
+                        cursor: pointer;
+                    }
+
+                    input {
+                        border: 1px solid #dadada;
+                        width: 38px;
+                        font-size: 14px;
+                        height: 22px;
+                        padding: 3px;
+                        line-height: 14px;
+                        float: left;
+                        text-align: center;
+                        display: inline;
+                        margin: 0 5px;
+                        // }
+                    }
+
+                }
+
+                .total {
+                    float: left;
+                    width: 115px;
+                    margin-left: 30px;
+                    font: 400 20px/22px "Microsoft YaHei";
+                    color: #ff9000;
+                }
+
+                .del {
+                    width: 80px;
+                    float: right;
+                    line-height: 22px;
+
+                    a {
+                        color: #333;
+                    }
+                }
+            }
+        }
+    }
+
+    #zong {
+        width: 990px;
+        line-height: 30px;
+        text-align: right;
+        margin: 0 auto; 
+
+        .del_all {
+            float: left;
+            width: 200px;
+            margin: 25px 0 0 22px;
+
+            .check {
+                width: 40px;
+                float: left;
+                text-align: center;
+            }
+        }
+
+        .details {
+            text-align: right;
+            line-height: 60px;
+            float: left;
+            margin-top: 10px;
+
+            span {
+                margin-left: 20px;
+                color: #333;
+                font: 400 14px/60px "Microsoft YaHei";
+            }
+
+            font {
+                color: #eb6100;
+                font: 400 16px/60px "Microsoft YaHei";
+                margin-right: 5px;
+            }
+        }
+        .all_price{
+            font: 400 14px/26px "Microsoft YaHei";
+            margin-top: 20px;
+            span{
+                font: 800 24px/26px "Microsoft YaHei";
+                color: #eb6100;
+            }
+            
+        }
+        .butn{
+            width: 990px;
+            height: 45px;
+            margin-bottom: 50px;
+            float: right;
+            input{
+                width: 140px;
+                height: 38px;
+                background:url(../img/jiesuan.png)0  0 no-repeat;
+
+            }
+        }
+    }

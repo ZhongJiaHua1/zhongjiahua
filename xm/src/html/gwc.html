@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/gwc.css">
+    <link rel="stylesheet" href="../css/commer.css">
+    <!-- <script src="../lib/jquery-3.3.1/jquery-33.1.min.js"></script> -->
+    <script src="../lib/jquery-1.10.2/jquery.js"></script>
+    <script src="../js/gwc.js"></script>
+    <script src="../js/common.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="box">
+        <!-- header头部 -->
+        <div id="header">
+            <div id="header_top">
+                <div id="content">
+                    <div id="welcome_login">
+                        您好，请<a href="../html/login.html">[登录]</a><a href="../html/check.html">[注册]</a><a href="" class="login">[机构会员]</a>
+                    </div>
+                    <div id="header_city">
+                        <a href="">送至：<font>广州</font></a>
+                    </div>
+                    <div id="header_menu">
+                        <ul>
+                            <li>
+                                <s></s>
+                                <div class="menu_word">
+                                    <a href="">我的订单</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="menu_word">
+                                    <a href="">本来礼品</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="header_twocode">
+                                    <dl>
+                                        <dt>
+                                            <a href="">掌上本来</a>
+                                            <div class="header_bg"></div>
+                                        </dt>
+                                        <dd>
+                                            <img src="../img/App_QR_Code_3de39ad3.png" width="100px;" height="100px;" alt="">
+                                            <p>扫描下载客户端</p>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="header_service">
+                                    <dl>
+                                        <dt>
+                                            <a href="">客户服务</a>
+                                            <div class="header_bg"></div>
+                                        </dt>
+                                        <dd>
+                                            <p>
+                                                <a href="" class="zxkf">在线客服</a>
+                                            </p>
+                                            <p>
+                                                <a href="" class="lxkf">联系客服</a>
+                                            </p>
+                                            <p>
+                                                <a href="" class="xsrx">销售热线</a>
+                                            </p>
+                                            <p>
+                                                <a href="" class="bzzx">帮助中心</a>
+                                            </p>
+                                        </dd>
+                                    </dl>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+        <!-- top -->
+        <div id="cart_top">
+            <div id="fl">
+                <a href="">
+                    <img src="../img/logo.gif" width="136" height="54" alt="">
+                </a>
+            </div>
+            <div id="fr">
+                <img src="../img/gwc_fr.gif" width="550" height="46" alt="">
+            </div>
+            <div id="tit">
+                <div class="tit_word">我的购物车</div>
+            </div>
+            <div id="min_all">
+                <div class="cart_none">
+                    <img src="../img/gwc.png" width="80" alt="">
+                    <p>
+                        您还没有购买过商品，
+                        <a href="">去逛逛吧</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- shopping -->
+        <div id="shopping">
+             <div class="alltit">
+                <p>冷链配</p>
+                <em>      已包邮</em>
+            </div>
+            <div id="main_header">
+                <ul class="main_h1">
+                    <input type="checkbox" name="all" id="selectall">
+                    <span style="width:75px;">全选</span>
+                    <span style="width:390px;">商品</span>
+                    <span style="width:120px;">单价</span>
+                    <span style="width:100px;">购买数量</span>
+                    <span style="width:120px;">小计</span>
+                    <a href="#javascript" id="sc">删除</a>
+                </ul>
+           
+                <ul id="sp">
+                    <!-- <li>
+                        <div class="check">
+                            <input type="checkbox">
+                        </div>
+                            <div class="pic">
+                                <img src="../img/pop_close_533af364.png" alt="">
+                            </div>
+                             <div class="name">
+                                <a href="">ffgdf</a>
+                            </div>
+
+                            <div class="price">22</div>
+
+                            <div class="num" id="cart">
+                                <p class="cutnum">-</p>
+                              
+                                    <input type="text"  value="1" id="num">
+                         
+                                <p class="addnum">+</p>
+                            </div>
+
+                            <div class="total">fsd</div>
+                            
+                            <div class="del">
+                                <a href="#javascript;" id="add">收藏</a>
+                                <br>
+                                <a href="#javascript;" id="del">删除</a>
+                            </div> 
+                        
+
+                    </li> -->
+                </ul>
+                <p id="allnum">已选 0 件商品</p>
+                <p id="totalprice">总计（不含运费）：￥0.00</p>
+            </div> 
+    </div>
+        
+
+        <!-- footer -->
+        <div id="footer">
+            <div class="footer_bar">
+                <div class="explain">
+                    <dl>
+                        <dt class="ico01"></dt>
+                        <dd>
+                            <span>18小时低温</span>
+                            全程冷链配送
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="ico02"></dt>
+                        <dd>
+                            <span>0时差基地直供</span>
+                            农田到餐桌
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="ico03"></dt>
+                        <dd>
+                            <span>48项检测</span>
+                            安全无农残
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="ico04"></dt>
+                        <dd>
+                            <span>7*24小时营业</span>
+                            全年无休
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="footert">
+                <dl>
+                    <dt class="xs">新手指南</dt>
+                    <dd>
+                        <a href="">购物流程</a>
+                    </dd>
+                    <dd>
+                        <a href="">会员政策</a>
+                    </dd>
+                    <dd>
+                        <a href="">联系客服</a>
+                    </dd>
+                    <dd>
+                        <a href="">积分政策</a>
+                    </dd>
+                    <dd>
+                        <a href="">加入我们</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="ps">配送方式</dt>
+                    <dd>
+                        <a href="">全程冷链</a>
+                    </dd>
+                    <dd>
+                        <a href="">配送时间</a>
+                    </dd>
+                    <dd>
+                        <a href="">配送范围</a>
+                    </dd>
+                    <dd>
+                        <a href="">配送收费标准</a>
+                    </dd>
+                    <dd>
+                        <a href="">关于我们</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="zf">支付方式</dt>
+                    <dd>
+                        <a href="">在线支付</a>
+                    </dd>
+                    <dd>
+                        <a href="">其他支付方式</a>
+                    </dd>
+                    <dd>
+                        <a href="">优惠券使用</a>
+                    </dd>
+                    <dd>
+                        <a href="">礼金卡使用</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="sh">售后服务</dt>
+                    <dd>
+                        <a href="">退换货政策</a>
+                    </dd>
+                    <dd>
+                        <a href="">退换货流程</a>
+                    </dd>
+                    <dd>
+                        <a href="">退款流程</a>
+                    </dd>
+                    <dd>
+                        <a href="">发票制度</a>
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="info">
+                <dl>
+                    <dt>
+                        <img src="../img/tel_f3c65362.gif" style="width:17px;height:13px;" alt="">
+                        客服热线：4006-917-917（周一至周日 8:00-20:00）
+                    </dt>
+                    <dd>
+                        <em>
+                            <a href="">加入我们</a>
+                        </em>
+                        <em>
+                            <a href="">联系我们</a>
+                        </em>
+                        <em>
+                            <a href="">关于我们</a>
+                        </em>
+                        <em>
+                            <a href="">友情链接</a>
+                        </em>
+                        <em>
+                            <a href="">品牌食材</a>
+                        </em>
+                        <em>
+                            <a href="">食品经营许可证</a>
+                        </em>
+                        <em class="b0">
+                            <a href="">营业执照</a>
+                        </em>
+                    </dd>
+                    <dd>
+                        <em>
+                            <a href="">
+                                <img src="../img/beian_d0289dc0.png" alt="">
+                                京公网安备 11010502022386号
+                            </a>
+                        </em>
+                        <em>
+                            <a href="">京ICP证120338号</a>
+                        </em>
+                        <em class="b0">
+                            <a href="">京B2-20180980</a>
+                        </em>
+                    </dd>
+                    <dd class="copy">
+                            © 2012-2019 Benlai.com. All Rights Reserved. 北京本来工坊科技有限公司
+                    </dd>
+                    <dd>
+                        <a href="" id="jiao">
+                            <img src="../img/verifyseal.jpg" alt="">
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <!-- 右侧悬浮 -->
+        <div id="gotop">
+            <a href="" id="go1"></a>
+            <a href="" id="go2">0</a>
+            <a href="" id="go3"></a>
+            <a href="" id="go4"></a>
+        </div>
+
+       
+    </div>
+        </div>
+        
+</body>
+</html>

@@ -1,0 +1,2127 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/commer.css">
+    <link rel="stylesheet" href="../css/list.css">
+    <script src="../lib/jquery-3.3.1/jquery-3.3.1.min.js"></script>
+    <script src="../lib/jquery-1.10.2/jquery.js"></script>
+    <script src="../lib/jquery-1.10.2/jquery.min.js"></script>
+    <script src="../lib/swiper/js/swiper.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/list.js"></script>
+    <script src="../js/commer.js"></script>
+   
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="box">
+        <!-- header头部 -->
+        <div id="header">
+            <div id="header_top">
+                <div id="content">
+                    <div id="welcome_login">
+                        您好，请<a href="../html/login.html">[登录]</a><a href="../html/check.html">[注册]</a><a href="" class="login">[机构会员]</a>
+                    </div>
+                    <div id="header_city">
+                        <a href="">送至：<font>广州</font></a>
+                    </div>
+                    <div id="header_menu">
+                        <ul>
+                            <li>
+                                <s></s>
+                                <div class="menu_word">
+                                    <a href="">我的订单</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="menu_word">
+                                    <a href="">本来礼品</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="header_twocode">
+                                    <dl>
+                                        <dt>
+                                            <a href="">掌上本来</a>
+                                            <div class="header_bg"></div>
+                                        </dt>
+                                        <dd>
+                                            <img src="../img/App_QR_Code_3de39ad3.png" width="100px;" height="100px;"
+                                                alt="">
+                                            <p>扫描下载客户端</p>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="header_service">
+                                    <dl>
+                                        <dt>
+                                            <a href="">客户服务</a>
+                                            <div class="header_bg"></div>
+                                        </dt>
+                                        <dd>
+                                            <p>
+                                                <a href="" class="zxkf">在线客服</a>
+                                            </p>
+                                            <p>
+                                                <a href="" class="lxkf">联系客服</a>
+                                            </p>
+                                            <p>
+                                                <a href="" class="xsrx">销售热线</a>
+                                            </p>
+                                            <p>
+                                                <a href="" class="bzzx">帮助中心</a>
+                                            </p>
+                                        </dd>
+                                    </dl>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- header_bar  -->
+        <div id="header_bar">
+            <div class="pic">
+                <img src="../img/dtbjyh.jpg">
+                <img src="../img/dtgdx.jpg">
+                <img src="../img/dtpf.jpg">
+                <img src="../img/dty2.jpg">
+            </div>
+        </div>
+        <!-- logo -->
+        <div id="logo">
+            <div class="logo_fl">
+                <img src="../img/n_logo_b20f2ffe.gif" alt="">
+            </div>
+
+
+            <!-- 购物车  开始 -->
+            <div id="header_buy">
+                <dl>
+                    <dt>
+                        <div id="buycar">0</div>
+                        <a href="">
+                            <s></s>
+                            购物车
+                        </a>
+                        <div class="buycar_bg"></div>
+                    <dd id="carlist">
+                        <div class="none_sku">
+                            购物车中还没有商品，赶紧选购吧！
+                        </div>
+                    </dd>
+
+
+                    </dt>
+
+                </dl>
+            </div>
+
+            <!-- 购物车结束了 -->
+            <!-- 我的本来 开始 -->
+            <div id="header_my">
+                <dl id="login">
+                    <dt>
+                        <a href="">
+                            <s></s>
+                            我的本来
+                        </a>
+                        <div class="my_bg"></div>
+                    </dt>
+                    <dd>
+                        <div id="my_nickname">
+                            <div class="login">
+                                您好，请
+                                <a href="" style="color: #ff6900;">[登录]</a>
+
+                            </div>
+                            <ul>
+                                <li class="my_left"></li>
+                                <li class="my_right"></li>
+                                <li class="my_right"></li>
+                                <li class="my_left"></li>
+                                <li class="my_right"></li>
+                                <li class="my_left"></li>
+                                <li class="my_right"></li>
+                                <li class="my_left"></li>
+                                <li class="my_my_right"></li>
+                                <li class="my_left">
+                                    <em>
+                                        <a href="">订单状态查询</a>
+                                        (<span class="zero">0</span>)
+                                    </em>
+                                    <em>
+                                        <a href="">待支付订单</a>
+                                        (<span class="zero">0</span>)
+                                    </em>
+                                    <em>
+                                        <a href="">待评价商品</a>
+                                        (<span class="zero">0</span>)
+                                    </em>
+                                    <em>
+                                        <a href="">优惠券</a>
+                                        (<span class="zero">0</span>)
+                                    </em>
+                                    <em>
+                                        <a href="">我的会员</a>
+                                        (<span class="zero">0</span>)
+                                    </em>
+                                    <em>
+                                        <a href="">我的积分</a>
+                                        (<span class="zero">0</span>)
+                                    </em>
+                                </li>
+                                <li class="my_right">
+                                    <em>
+                                        <a href="">我的订单></a>
+                                    </em>
+                                    <em>
+                                        <a href="">我的宅配></a>
+                                    </em>
+                                    <em>
+                                        <a href="">我的收藏></a>
+                                    </em>
+                                    <em>
+                                        <a href="">我的退货></a>
+                                    </em>
+                                    <em>
+                                        <a href="">充&nbsp;&nbsp;&nbsp;值</a>
+                                    </em>
+                                </li>
+                            </ul>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+
+            <!-- 我的本来 结束 -->
+            <!-- 搜索 开始 -->
+            <div id="header_search">
+                <div id="search_box">
+                    <input type="text" name="" id="search" placeholder="实建柑78元10斤">
+                    <a href="" id="btnsearch"></a>
+                    <div id="search_word">
+                        <em>
+                            <span>耙耙柑</span>
+                        </em>
+                        <em>
+                            <span>蒲江丑柑</span>
+                        </em>
+                        <em>
+                            <span>椰青</span>
+                        </em>
+                        <em>
+                            <span>红颜草莓</span>
+                        </em>
+                        <em>
+                            <span>白虾</span>
+                        </em>
+                        <em>
+                            <span>李玉双有机稻花香</span>
+                        </em>
+                    </div>
+                    <div class="search_list" style="display:none;"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- nav -->
+        <div id="nav">
+            <div class="nav_box">
+                <!-- 所有商品分类 -->
+                <div class="nav_all">
+                    <a href="">所有商品分类</a>
+                </div>
+                <div class="menu_big">
+                    <ul>
+                        <li>
+                            <a href="">首页</a>
+                        </li>
+                        <li>
+                            <a href="">本来扶贫</a>
+                        </li>
+                        <li>
+                            <a href="">台湾特产</a>
+                        </li>
+                        <li>
+                            <a href="">韩国馆</a>
+                            <img src="../img/new.jpg" alt="">
+                        </li>
+                        <li>
+                            <a href="">充值</a>
+                        </li>
+                        <li>
+                            <a href="">全国配</a>
+                        </li>
+                        <li>
+                            <a href="">台创园</a>
+                        </li>
+                        <li>
+                            <a href="">本来礼品</a>
+                        </li>
+                        <li>
+                            <a href="">兑换专区</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- list -->
+        <div class="nav_list">
+            <!-- list1 -->
+            <dl id="nav_border">
+                <dt class="list1">
+                    <a href="">镇店之宝</a>
+
+                </dt>
+                <dd style="width:600px;">
+                    <div class="menu_list">
+                        <ul>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">本来推荐</a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">榴莲 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">佳沛奇异果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">鲜奶宅配 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日鲜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冰淇淋 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">李玉双大米 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">莓果缤纷 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">厄瓜多尔白虾 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">椰青 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">原装进口果汁 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">新西兰水 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日坚果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">褚橙 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">车厘子/樱桃 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">状元蟹 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">料理之味 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">麻辣香锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">糖醋排骨 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">寿喜锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冬荫功 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">烛光晚餐 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">健康增肌 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">低卡纤体 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">周末Brunch </a>
+                                    </em>
+                                    <em>
+                                        <a href="">中式家宴 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">有机食材 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">有机精选 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机蔬菜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机杂粮 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机米面 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </dd>
+            </dl>
+
+            <!--list2  -->
+            <dl id="nav_border">
+                <dt class="list2">
+                    <a href="">水果</a>
+                </dt>
+                <dd style="width:600px;">
+                    <div class="menu_list">
+                        <ul>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">热门推荐 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">樱桃/车厘子 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">橙 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">阿克苏苹果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">火龙果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">佳沛奇异果 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">进口水果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">莓果缤纷 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">热带水果 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">柑橘柚 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">礼盒/宅配 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">水果礼盒 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">原箱水果 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">精选水果 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">百香果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">菠萝/凤梨 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">橙子 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">火龙果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">蓝莓树莓 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">梨 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">榴莲 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">芒果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">蜜瓜/西瓜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">苹果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">葡萄/提子 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">佳沛奇异果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">桃李杏枣 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">香蕉 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">椰青 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">柑/橘/柚 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">龙眼 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">其它 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">原箱水果 </a>
+                                    </em>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </dd>
+            </dl>
+
+            <!--list3  -->
+            <dl id="nav_border">
+                <dt class="list3">
+                    <a href="">蔬菜</a>
+                </dt>
+                <dd style="width:600px;">
+                    <div class="menu_list">
+                        <ul>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">热门推荐 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">有机蔬菜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">佳沛奇异果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">鲜奶宅配 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日鲜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冰淇淋 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">李玉双大米 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">莓果缤纷 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">厄瓜多尔白虾 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">椰青 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">原装进口果汁 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">新西兰水 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日坚果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">褚橙 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">车厘子/樱桃 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">状元蟹 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">料理之味 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">麻辣香锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">糖醋排骨 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">寿喜锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冬荫功 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">烛光晚餐 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">健康增肌 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">低卡纤体 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">周末Brunch </a>
+                                    </em>
+                                    <em>
+                                        <a href="">中式家宴 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">有机食材 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">有机精选 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机蔬菜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机杂粮 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机米面 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </dd>
+            </dl>
+
+            <!--list4  -->
+            <dl id="nav_border">
+                <dt class="list4">
+                    <a href="">肉禽蛋品</a>
+                </dt>
+                <dd style="width:600px;">
+                    <div class="menu_list">
+                        <ul>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">本来推荐</a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">榴莲 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">佳沛奇异果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">鲜奶宅配 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日鲜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冰淇淋 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">李玉双大米 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">莓果缤纷 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">厄瓜多尔白虾 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">椰青 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">原装进口果汁 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">新西兰水 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日坚果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">褚橙 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">车厘子/樱桃 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">状元蟹 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">料理之味 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">麻辣香锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">糖醋排骨 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">寿喜锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冬荫功 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">烛光晚餐 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">健康增肌 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">低卡纤体 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">周末Brunch </a>
+                                    </em>
+                                    <em>
+                                        <a href="">中式家宴 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">有机食材 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">有机精选 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机蔬菜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机杂粮 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机米面 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </dd>
+            </dl>
+
+            <!--list5  -->
+            <dl id="nav_border">
+                <dt class="list5">
+                    <a href="">水产海鲜</a>
+                </dt>
+                <dd style="width:600px;">
+                    <div class="menu_list">
+                        <ul>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">本来推荐</a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">榴莲 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">佳沛奇异果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">鲜奶宅配 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日鲜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冰淇淋 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">李玉双大米 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">莓果缤纷 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">厄瓜多尔白虾 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">椰青 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">原装进口果汁 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">新西兰水 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日坚果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">褚橙 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">车厘子/樱桃 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">状元蟹 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">料理之味 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">麻辣香锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">糖醋排骨 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">寿喜锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冬荫功 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">烛光晚餐 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">健康增肌 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">低卡纤体 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">周末Brunch </a>
+                                    </em>
+                                    <em>
+                                        <a href="">中式家宴 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">有机食材 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">有机精选 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机蔬菜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机杂粮 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机米面 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </dd>
+            </dl>
+
+            <!-- list6 -->
+            <dl id="nav_border">
+                <dt class="list6">
+                    <a href="">熟食面点</a>
+                </dt>
+                <dd style="width:600px;">
+                    <div class="menu_list">
+                        <ul>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">本来推荐</a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">榴莲 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">佳沛奇异果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">鲜奶宅配 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日鲜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冰淇淋 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">李玉双大米 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">莓果缤纷 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">厄瓜多尔白虾 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">椰青 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">原装进口果汁 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">新西兰水 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日坚果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">褚橙 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">车厘子/樱桃 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">状元蟹 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">料理之味 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">麻辣香锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">糖醋排骨 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">寿喜锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冬荫功 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">烛光晚餐 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">健康增肌 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">低卡纤体 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">周末Brunch </a>
+                                    </em>
+                                    <em>
+                                        <a href="">中式家宴 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">有机食材 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">有机精选 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机蔬菜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机杂粮 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机米面 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </dd>
+            </dl>
+
+            <!-- list7 -->
+            <dl id="nav_border">
+                <dt class="list7">
+                    <a href="">粮油副食</a>
+                </dt>
+                <dd style="width:600px;">
+                    <div class="menu_list">
+                        <ul>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">本来推荐</a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">榴莲 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">佳沛奇异果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">鲜奶宅配 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日鲜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冰淇淋 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">李玉双大米 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">莓果缤纷 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">厄瓜多尔白虾 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">椰青 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">原装进口果汁 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">新西兰水 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日坚果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">褚橙 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">车厘子/樱桃 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">状元蟹 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">料理之味 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">麻辣香锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">糖醋排骨 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">寿喜锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冬荫功 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">烛光晚餐 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">健康增肌 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">低卡纤体 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">周末Brunch </a>
+                                    </em>
+                                    <em>
+                                        <a href="">中式家宴 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">有机食材 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">有机精选 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机蔬菜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机杂粮 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机米面 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </dd>
+            </dl>
+
+            <!--list8  -->
+            <dl id="nav_border">
+                <dt class="list8">
+                    <a href="">烘焙乳品</a>
+                </dt>
+                <dd style="width:600px;">
+                    <div class="menu_list">
+                        <ul>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">本来推荐</a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">榴莲 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">佳沛奇异果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">鲜奶宅配 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日鲜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冰淇淋 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">李玉双大米 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">莓果缤纷 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">厄瓜多尔白虾 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">椰青 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">原装进口果汁 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">新西兰水 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日坚果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">褚橙 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">车厘子/樱桃 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">状元蟹 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">料理之味 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">麻辣香锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">糖醋排骨 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">寿喜锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冬荫功 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">烛光晚餐 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">健康增肌 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">低卡纤体 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">周末Brunch </a>
+                                    </em>
+                                    <em>
+                                        <a href="">中式家宴 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">有机食材 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">有机精选 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机蔬菜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机杂粮 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机米面 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </dd>
+            </dl>
+
+            <!-- list9 -->
+            <dl id="nav_border">
+                <dt class="list9">
+                    <a href="">休闲食品</a>
+                </dt>
+                <dd style="width:600px;">
+                    <div class="menu_list">
+                        <ul>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">本来推荐</a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">榴莲 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">佳沛奇异果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">鲜奶宅配 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日鲜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冰淇淋 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">李玉双大米 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">莓果缤纷 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">厄瓜多尔白虾 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">椰青 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">原装进口果汁 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">新西兰水 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日坚果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">褚橙 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">车厘子/樱桃 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">状元蟹 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">料理之味 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">麻辣香锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">糖醋排骨 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">寿喜锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冬荫功 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">烛光晚餐 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">健康增肌 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">低卡纤体 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">周末Brunch </a>
+                                    </em>
+                                    <em>
+                                        <a href="">中式家宴 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">有机食材 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">有机精选 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机蔬菜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机杂粮 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机米面 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </dd>
+            </dl>
+
+            <!--list10  -->
+            <dl id="nav_border">
+                <dt class="list10">
+                    <a href="">酒水茶饮</a>
+                </dt>
+                <dd style="width:600px;">
+                    <div class="menu_list">
+                        <ul>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">本来推荐</a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">榴莲 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">佳沛奇异果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">鲜奶宅配 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日鲜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冰淇淋 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">李玉双大米 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">莓果缤纷 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">厄瓜多尔白虾 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">椰青 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">原装进口果汁 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">新西兰水 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日坚果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">褚橙 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">车厘子/樱桃 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">状元蟹 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">料理之味 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">麻辣香锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">糖醋排骨 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">寿喜锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冬荫功 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">烛光晚餐 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">健康增肌 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">低卡纤体 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">周末Brunch </a>
+                                    </em>
+                                    <em>
+                                        <a href="">中式家宴 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">有机食材 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">有机精选 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机蔬菜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机杂粮 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机米面 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </dd>
+            </dl>
+
+            <!--list11  -->
+            <dl id="nav_border">
+                <dt class="list11">
+                    <a href="">厨房用品</a>
+                </dt>
+                <dd style="width:600px;">
+                    <div class="menu_list">
+                        <ul>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">本来推荐</a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">榴莲 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">佳沛奇异果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">鲜奶宅配 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日鲜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冰淇淋 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">李玉双大米 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">莓果缤纷 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">厄瓜多尔白虾 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">椰青 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">原装进口果汁 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">新西兰水 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日坚果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">褚橙 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">车厘子/樱桃 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">状元蟹 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">料理之味 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">麻辣香锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">糖醋排骨 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">寿喜锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冬荫功 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">烛光晚餐 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">健康增肌 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">低卡纤体 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">周末Brunch </a>
+                                    </em>
+                                    <em>
+                                        <a href="">中式家宴 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">有机食材 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">有机精选 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机蔬菜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机杂粮 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机米面 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </dd>
+            </dl>
+
+            <!--list12  -->
+            <dl id="nav_border">
+                <dt class="list12">
+                    <a href="">礼品礼盒</a>
+                </dt>
+                <dd style="width:600px;">
+                    <div class="menu_list">
+                        <ul>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">本来推荐</a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">榴莲 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">佳沛奇异果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">鲜奶宅配 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日鲜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冰淇淋 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">李玉双大米 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">莓果缤纷 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">厄瓜多尔白虾 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">椰青 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">原装进口果汁 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">新西兰水 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">每日坚果 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">褚橙 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">车厘子/樱桃 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">状元蟹 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">料理之味 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">麻辣香锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">糖醋排骨 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">寿喜锅 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">冬荫功 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">烛光晚餐 </a>
+                                    </em>
+
+                                    <em>
+                                        <a href="">健康增肌 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">低卡纤体 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">周末Brunch </a>
+                                    </em>
+                                    <em>
+                                        <a href="">中式家宴 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="list_l">
+                                    <a href="">有机食材 </a>
+                                </div>
+                                <div class="list_r">
+                                    <em>
+                                        <a href="">有机精选 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机蔬菜 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机杂粮 </a>
+                                    </em>
+                                    <em>
+                                        <a href="">有机米面 </a>
+                                    </em>
+                                    <em style="border: right 0px;">
+                                        <a href="">儿童早餐 </a>
+                                    </em>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </dd>
+            </dl>
+        </div>
+
+        <!-- main -->
+        <div id="listbox">
+            <!-- main_header -->
+            <div class="ls">
+                <a href="">首页</a>
+                >
+                <a href="">蔬菜</a>
+                >
+                <a href="">热门推荐</a>
+                >
+                <a href="">有机蔬菜</a>
+            </div>
+
+            <!-- main_fl -->
+            <div id="listbox_fl">
+                <div class="fl_menu">
+                    <ul>蔬菜</ul>
+                    <dl>
+                        <dt class="on_b">
+                            <a href="">热门推荐</a>
+                        </dt>
+                        <dd class="number1" style="display:none;">
+                            <em>
+                                <a href="" class="on_s">有机蔬菜</a>
+                            </em>
+                            <em>
+                                <a href="" class="on_a">生态蔬菜</a>
+                            </em>
+                            <em>
+                                <a href="" class="on_a">地域特色</a>
+                            </em>
+                            <em>
+                                <a href="" class="on_a">红薯</a>
+                            </em>
+                            <em>
+                                <a href="" class="on_a">番茄</a>
+                            </em>
+                            <em>
+                                <a href="" class="on_a">玉米</a>
+                            </em>
+                            <em>
+                                <a href="" class="on_a">山药</a>
+                            </em>
+                            <em>
+                                <a href="" class="on_a">南瓜</a>
+                            </em>
+                        </dd>
+                    </dl>
+
+                    <dl>
+                        <dt class="num2">
+                            <a href="">新鲜蔬菜</a>
+                        </dt>
+                        <dd class="number2" style="display:none;">
+                            <em>
+                                <a href="">叶菜</a>
+                            </em>
+                            <em>
+                                <a href="">茄果</a>
+                            </em>
+                            <em>
+                                <a href="">根茎</a>
+                            </em>
+                            <em>
+                                <a href="">豆制品</a>
+                            </em>
+                            <em>
+                                <a href="">菌菇</a>
+                            </em>
+                            <em>
+                                <a href="">葱姜蒜</a>
+                            </em>
+
+                        </dd>
+
+                    </dl>
+                    <dl>
+                        <dt class="num3">
+                            <a href="">礼盒/宅配</a>
+                        </dt>
+                        <dd class="number3" style="display:none;">
+                            <em>
+                                <a href="">蔬菜礼盒</a>
+                            </em>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+            <!-- main_fr -->
+            <div id="listbox_fr">
+                <div class="fr_name">
+                    <h1>热门推荐</h1>
+                </div>
+                <div class="fr_nav">
+                    <ul>
+                        <li>
+                            <a href="">默认</a>
+                        </li>
+                        <li>
+                            <span id="sx" style="display:inline-block;flota:left;margin-top:9px;color:red;">价格升序</span>
+                            <span id="jx" style="display:inline-block;flota:left;margin-top:5px;color:red;">价格降序</span>
+                        </li>
+                    </ul>
+
+                </div>
+                 <div class="product" id="product">
+                    <!-- <dl>
+                        <dd>
+                            <div class="list">
+                                <p class="pic">
+                                    <a href="" id="pic">
+                                        <img src="../img/c7d787ac-7ec2-4a31-8cc5-848200ae68a6.webp" style="width:100%;" alt="">
+                                    </a>
+                                </p>
+                                <p class="name">
+                                    <a href="">
+                                        <font id="font">黑土地有机速冻鲜糯白玉米400g*6袋(12穗)</font>
+                                        <span id="span">速冻锁鲜 软糯弹牙</span>
+                                    </a>
+                                </p>
+                                <p class="price">
+                                    <span id="price">￥49.00</span>
+                                    <span id="del">￥78.00</span>
+                                </p>
+                                <p class="cold">
+                                    <span>冷链配</span>
+                                </p>
+                            </div>
+                        </dd>
+                    </dl> --> 
+                </div>
+                <div class="big" id="gif">
+                    <div class="box">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                    <div class="box">
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div>
+                <p id="more">加载更多</p>
+                    <!-- <span class="active">1</span>
+                    <span>2</span>
+                    <span>3</span> -->
+               
+            </div>
+
+            <!-- 分页 -->
+            
+        </div>
+
+        <!-- footer -->
+        <div id="footer">
+            <div class="footer_bar">
+                <div class="explain">
+                    <dl>
+                        <dt class="ico01"></dt>
+                        <dd>
+                            <span>18小时低温</span>
+                            全程冷链配送
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="ico02"></dt>
+                        <dd>
+                            <span>0时差基地直供</span>
+                            农田到餐桌
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="ico03"></dt>
+                        <dd>
+                            <span>48项检测</span>
+                            安全无农残
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt class="ico04"></dt>
+                        <dd>
+                            <span>7*24小时营业</span>
+                            全年无休
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+
+            <div class="footert">
+                <dl>
+                    <dt class="xs">新手指南</dt>
+                    <dd>
+                        <a href="">购物流程</a>
+                    </dd>
+                    <dd>
+                        <a href="">会员政策</a>
+                    </dd>
+                    <dd>
+                        <a href="">联系客服</a>
+                    </dd>
+                    <dd>
+                        <a href="">积分政策</a>
+                    </dd>
+                    <dd>
+                        <a href="">加入我们</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="ps">配送方式</dt>
+                    <dd>
+                        <a href="">全程冷链</a>
+                    </dd>
+                    <dd>
+                        <a href="">配送时间</a>
+                    </dd>
+                    <dd>
+                        <a href="">配送范围</a>
+                    </dd>
+                    <dd>
+                        <a href="">配送收费标准</a>
+                    </dd>
+                    <dd>
+                        <a href="">关于我们</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="zf">支付方式</dt>
+                    <dd>
+                        <a href="">在线支付</a>
+                    </dd>
+                    <dd>
+                        <a href="">其他支付方式</a>
+                    </dd>
+                    <dd>
+                        <a href="">优惠券使用</a>
+                    </dd>
+                    <dd>
+                        <a href="">礼金卡使用</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt class="sh">售后服务</dt>
+                    <dd>
+                        <a href="">退换货政策</a>
+                    </dd>
+                    <dd>
+                        <a href="">退换货流程</a>
+                    </dd>
+                    <dd>
+                        <a href="">退款流程</a>
+                    </dd>
+                    <dd>
+                        <a href="">发票制度</a>
+                    </dd>
+                </dl>
+            </div>
+
+            <div class="info">
+                <dl>
+                    <dt>
+                        <img src="../img/tel_f3c65362.gif" style="width:17px;height:13px;" alt="">
+                        客服热线：4006-917-917（周一至周日 8:00-20:00）
+                    </dt>
+                    <dd>
+                        <em>
+                            <a href="">加入我们</a>
+                        </em>
+                        <em>
+                            <a href="">联系我们</a>
+                        </em>
+                        <em>
+                            <a href="">关于我们</a>
+                        </em>
+                        <em>
+                            <a href="">友情链接</a>
+                        </em>
+                        <em>
+                            <a href="">品牌食材</a>
+                        </em>
+                        <em>
+                            <a href="">食品经营许可证</a>
+                        </em>
+                        <em class="b0">
+                            <a href="">营业执照</a>
+                        </em>
+                    </dd>
+                    <dd>
+                        <em>
+                            <a href="">
+                                <img src="../img/beian_d0289dc0.png" alt="">
+                                京公网安备 11010502022386号
+                            </a>
+                        </em>
+                        <em>
+                            <a href="">京ICP证120338号</a>
+                        </em>
+                        <em class="b0">
+                            <a href="">京B2-20180980</a>
+                        </em>
+                    </dd>
+                    <dd class="copy">
+                        © 2012-2019 Benlai.com. All Rights Reserved. 北京本来工坊科技有限公司
+                    </dd>
+                    <dd>
+                        <a href="" id="jiao">
+                            <img src="../img/verifyseal.jpg" alt="">
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <!-- 右侧悬浮 -->
+        <div id="gotop">
+            <a href="" id="go1"></a>
+            <a href="" id="go2">0</a>
+            <a href="" id="go3"></a>
+            <a href="" id="go4"></a>
+        </div>
+
+
+    </div>
+    </div>
+
+</body>
+
+</html>
